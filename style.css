@@ -491,7 +491,7 @@ footer p {
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width:480px) {
     #contact,
     footer {
       height: 40vh;
@@ -499,13 +499,12 @@ footer p {
     #profile {
       height: 83vh;
       gap: 1em;
-      margin-bottom: 0;
     }
 
     .section__pic-container img{
         border-radius: 50%;
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
     }
 
     #about {
@@ -559,5 +558,9 @@ footer p {
 
     .contact-info-upper-container {
         gap: 1em;
+      }
+
+      .section__pic-container{
+        margin-bottom: 3em;
       }
   }
